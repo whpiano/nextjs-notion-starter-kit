@@ -76,6 +76,15 @@ export const Footer: React.FC<{
             <FaLinkedin />
           </a>
         )}
+        <a
+            className={styles.linkedin}
+            href={`https://weibo.com/${config.linkedin}`}
+            title={`LinkedIn ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaLinkedin />
+          </a>
       </div>
     </footer>
   )
