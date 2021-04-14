@@ -7,26 +7,26 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '机场分享',
+  name: '白嫖机场分享 - 分享免费的SS、SSR、Vmess、Vless节点',
   domain: 'zhaoip.ml',
   author: '机场分享',
 
   // open graph metadata (optional)
   description: '免费机场分享、机场推荐',
-  socialImageTitle: 'Transitive Bullshit',
+  socialImageTitle: '白嫖机场',
   socialImageSubtitle: '免费机场分享、机场推荐! 👋',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
+  twitter: '',
+  github: '',
   linkedin: '',
-  weibo: 'fisch2',
-  qq: '1167064',
-  weixin: 'https://i.loli.net/2021/04/14/QitGo6DhJfF8Zys.jpg',
+  weibo: '',
+  qq: '',
+  weixin: '',
   zhihu: '',
-  qqun: 'https://jq.qq.com/?_wv=1027&k=BkXZ9qkq',
+  qqun: '',
   telegram: 'aiotgbot',
-  donate: 'https://i.loli.net/2021/04/14/hJ4H6ugAEIeP8RB.png',
+  donate: '',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults

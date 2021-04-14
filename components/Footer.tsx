@@ -113,7 +113,7 @@ export const Footer: React.FC<{
           <a
             className={styles.linkedin}
             href={`${config.qqun}`}
-            title={`QQ ${config.author}`}
+            title={`QQ群 ${config.author}`}
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -124,7 +124,7 @@ export const Footer: React.FC<{
           <a
             className={styles.linkedin}
             href={`https://t.me/${config.telegram}`}
-            title={`QQ ${config.author}`}
+            title={`Telegram ${config.author}`}
             target='_blank'
             rel='noopener noreferrer'
           >
