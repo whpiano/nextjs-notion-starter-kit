@@ -19,6 +19,7 @@ module.exports = {
   // social usernames (optional)
   twitter: 'transitive_bs',
   github: 'transitive-bullshit',
+  linkedin: '',
   weibo: 'fisch2',
   qq: '1167064',
   weixin: 'https://i.loli.net/2021/04/14/QitGo6DhJfF8Zys.jpg',
