@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { FaTwitter, FaGithub, FaWeixin, FaWeibo, FaZhihu,FaQq,FaUserFriends,FaTelegram   } from 'react-icons/fa'
+import { FaTwitter, FaGithub, FaWeixin,FaDonate, FaWeibo, FaZhihu,FaQq,FaUserFriends,FaTelegram   } from 'react-icons/fa'
 import { IoSunnyOutline, IoMoonSharp } from 'react-icons/io5'
 import * as config from 'lib/config'
 
@@ -68,7 +68,7 @@ export const Footer: React.FC<{
         {config.weixin && (
           <a
             className={styles.linkedin}
-            href={`https://www.linkedin.com/in/${config.weixin}`}
+            href={`${config.weixin}`}
             title={`微信 ${config.author}`}
             target='_blank'
             rel='noopener noreferrer'
@@ -101,7 +101,7 @@ export const Footer: React.FC<{
         {config.qq && (
           <a
             className={styles.linkedin}
-            href={`https://weibo.com/${config.qq}`}
+            href={`http://wpa.qq.com/msgrd?v=3&uin=${config.qq}&site=qq&menu=yes`}
             title={`QQ ${config.author}`}
             target='_blank'
             rel='noopener noreferrer'
@@ -112,7 +112,7 @@ export const Footer: React.FC<{
         {config.qqun && (
           <a
             className={styles.linkedin}
-            href={`https://weibo.com/${config.qun}`}
+            href={`${config.qqun}`}
             title={`QQ ${config.author}`}
             target='_blank'
             rel='noopener noreferrer'
@@ -123,12 +123,23 @@ export const Footer: React.FC<{
         {config.telegram && (
           <a
             className={styles.linkedin}
-            href={`https://weibo.com/${config.telegram}`}
+            href={`https://t.me/${config.telegram}`}
             title={`QQ ${config.author}`}
             target='_blank'
             rel='noopener noreferrer'
           >
             <FaTelegram />
+          </a>
+        )}
+        {config.donate && (
+          <a
+            className={styles.linkedin}
+            href={`${config.donate}`}
+            title={`打赏 ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaDonate />
           </a>
         )}
       </div>

@@ -19,13 +19,13 @@ module.exports = {
   // social usernames (optional)
   twitter: 'transitive_bs',
   github: 'transitive-bullshit',
-  linkedin: 'fisch2',
   weibo: 'fisch2',
   qq: '1167064',
-  weixin: '',
+  weixin: 'https://i.loli.net/2021/04/14/QitGo6DhJfF8Zys.jpg',
   zhihu: '',
-  qqun: '',
-  telegram: '',
+  qqun: 'https://jq.qq.com/?_wv=1027&k=BkXZ9qkq',
+  telegram: 'aiotgbot',
+  donate: 'https://i.loli.net/2021/04/14/hJ4H6ugAEIeP8RB.png',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults

@@ -45,7 +45,13 @@ export const description: string = getSiteConfig('description', 'Notion Blog')
 // social accounts
 export const twitter: string | null = getSiteConfig('twitter', null)
 export const github: string | null = getSiteConfig('github', null)
-export const linkedin: string | null = getSiteConfig('linkedin', null)
+export const weixin: string | null = getSiteConfig('weixin', null)
+export const weibo: string | null = getSiteConfig('weibo', null)
+export const qq: string | null = getSiteConfig('qq', null)
+export const qqun: string | null = getSiteConfig('qqun', null)
+export const zhihu: string | null = getSiteConfig('zhihu', null)
+export const telegram: string | null = getSiteConfig('telegram', null)
+export const donate: string | null = getSiteConfig('donate', null)
 
 export const socialImageTitle: string | null = getSiteConfig(
   'socialImageTitle',
