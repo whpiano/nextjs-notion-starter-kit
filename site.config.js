@@ -21,6 +21,11 @@ module.exports = {
   github: 'transitive-bullshit',
   linkedin: 'fisch2',
   weibo: 'fisch2',
+  qq: '1167064',
+  weixin: '',
+  zhihu: '',
+  qqun: '',
+  telegram: '',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults

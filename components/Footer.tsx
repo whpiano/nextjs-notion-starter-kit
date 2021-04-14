@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { FaTwitter, FaGithub, FaWeixin, FaWeibo, FaZhihu   } from 'react-icons/fa'
+import { FaTwitter, FaGithub, FaWeixin, FaWeibo, FaZhihu,FaQq,FaUserFriends,FaTelegram   } from 'react-icons/fa'
 import { IoSunnyOutline, IoMoonSharp } from 'react-icons/io5'
 import * as config from 'lib/config'
 
@@ -65,35 +65,72 @@ export const Footer: React.FC<{
           </a>
         )}
 
-        {config.linkedin && (
+        {config.weixin && (
           <a
             className={styles.linkedin}
-            href={`https://www.linkedin.com/in/${config.linkedin}`}
-            title={`LinkedIn ${config.author}`}
+            href={`https://www.linkedin.com/in/${config.weixin}`}
+            title={`微信 ${config.author}`}
             target='_blank'
             rel='noopener noreferrer'
           >
             <FaWeixin />
           </a>
         )}
+        {config.weibo && (
         <a
             className={styles.linkedin}
-            href={`https://weibo.com/${config.linkedin}`}
-            title={`LinkedIn ${config.author}`}
+            href={`https://weibo.com/${config.weibo}`}
+            title={`微博 ${config.author}`}
             target='_blank'
             rel='noopener noreferrer'
           >
             <FaWeibo />
           </a>
+        )}
+        {config.zhihu && (
           <a
             className={styles.linkedin}
-            href={`https://weibo.com/${config.linkedin}`}
+            href={`https://weibo.com/${config.zhihu}`}
             title={`LinkedIn ${config.author}`}
             target='_blank'
             rel='noopener noreferrer'
           >
             <FaZhihu />
           </a>
+        )}
+        {config.qq && (
+          <a
+            className={styles.linkedin}
+            href={`https://weibo.com/${config.qq}`}
+            title={`QQ ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaQq />
+          </a>
+        )}
+        {config.qqun && (
+          <a
+            className={styles.linkedin}
+            href={`https://weibo.com/${config.qun}`}
+            title={`QQ ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaUserFriends />
+          </a>
+        )}
+        {config.telegram && (
+          <a
+            className={styles.linkedin}
+            href={`https://weibo.com/${config.telegram}`}
+            title={`QQ ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaTelegram />
+          </a>
+        )}
       </div>
     </footer>
   )
