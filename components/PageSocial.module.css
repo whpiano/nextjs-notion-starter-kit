@@ -86,11 +86,11 @@
   border-color: #2795e9;
 }
 
-.linkedin .actionBgPane {
-  background: #0077b5;
+.telegram .actionBgPane {
+  background: #28a8e9;
 }
-.linkedin:hover {
-  border-color: #0077b5;
+.telegram:hover {
+  border-color: #28a8e9;
 }
 
 .github .actionBgPane {

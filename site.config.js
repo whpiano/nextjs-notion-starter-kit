@@ -51,8 +51,8 @@ module.exports = {
   // example:
   //
 pageUrlOverrides: {
-'/foo': '067dd719a912471ea9a3ac10710e7fdf',
-'/bar': '0be6efce9daf42688f65c76b89f8eb27'
+'/vpn': '58def352d9e34e6fb5c7fca25f131592',
+'/sub': '95afc6fa369d4851be99b79aea9a00ea'
  },
   pageUrlOverrides: null
 }
