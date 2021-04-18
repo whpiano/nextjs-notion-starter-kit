@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Sky\'s Blog - 记录网络生活点滴',
-  domain: 'zdlength.im',
+  domain: 'zdl.im',
   author: 'Sky',
 
   // open graph metadata (optional)
@@ -26,7 +26,7 @@ module.exports = {
   zhihu: '',
   qqun: '',
   telegram: 'aiotgbot',
-  donate: '',
+  donate: 'https://b.zdl.im',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -51,10 +51,11 @@ module.exports = {
   // example:
   //
 pageUrlOverrides: {
-'/vpn': '58def352d9e34e6fb5c7fca25f131592',
-'/freess': '79a2fa2fd33b4eaaae9989116aab297f',
-'/sub': '95afc6fa369d4851be99b79aea9a00ea',
-'/ishare': 'd86866e3aa664b6b8c012b6d20890a98',
+'/freess': '4d44446188b841c892f714b5c4891bbd',
+'/nodesub': '95afc6fa369d4851be99b79aea9a00ea',
+'/ishare': 'a246595c811943b8823a9ce9698cd8fa',
+'/skynote': 'cbcb545313994764925a083d0cc908cb',
+'/archives': '601d5ecb3ca84285af2032006fade1ce',
  },
 //  pageUrlOverrides: null
 }

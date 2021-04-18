@@ -100,7 +100,7 @@ export const Footer: React.FC<{
         )}
         {config.qq && (
           <a
-            className={styles.linkedin}
+            className={styles.qq}
             href={`http://wpa.qq.com/msgrd?v=3&uin=${config.qq}&site=qq&menu=yes`}
             title={`QQ ${config.author}`}
             target='_blank'
@@ -111,7 +111,7 @@ export const Footer: React.FC<{
         )}
         {config.qqun && (
           <a
-            className={styles.linkedin}
+            className={styles.qq}
             href={`${config.qqun}`}
             title={`QQ群 ${config.author}`}
             target='_blank'
@@ -122,7 +122,7 @@ export const Footer: React.FC<{
         )}
         {config.telegram && (
           <a
-            className={styles.linkedin}
+            className={styles.telegram}
             href={`https://t.me/${config.telegram}`}
             title={`Telegram ${config.author}`}
             target='_blank'
@@ -133,7 +133,7 @@ export const Footer: React.FC<{
         )}
         {config.donate && (
           <a
-            className={styles.linkedin}
+            className={styles.donate}
             href={`${config.donate}`}
             title={`打赏 ${config.author}`}
             target='_blank'

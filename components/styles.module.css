@@ -101,6 +101,26 @@
   color: #28a8e9;
 }
 
+.qq:hover {
+  color: #1594d3;
+}
+
+.weixin:hover {
+  color: #609700;
+}
+
+.weibo:hover {
+  color: #e6162d;
+}
+
+.donate:hover {
+  color: #e6162d;
+}
+
+.zhihu:hover{
+  color: #0066ff;
+}
+
 .comments {
   width: 100%;
   margin-top: 2em;
